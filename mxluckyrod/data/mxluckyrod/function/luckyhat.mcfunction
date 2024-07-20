@@ -1,0 +1,4 @@
+title @p times 20 100 20
+title @p subtitle {"text":"You Have A Lucky Hat","bold":true,"color":"gold"}
+title @p title {"text":"Lucky Hat","bold":true,"color":"gold"}
+give @p leather_helmet[minecraft:attribute_modifiers=[{id:"minecraft:generic.luck",type:"generic.luck",amount:200.0,operation:"add_value",slot:"head"},{id:"entity_interaction_range",type:"player.entity_interaction_range",amount:1.6,operation:"add_value",slot:"head"}],custom_name='{"text":"Lucky Hat",color=gold,"bold":true}', item_name="luckyhat",custom_data={"luckyhat":1},enchantments={levels: {"lure":3,"unbreaking":10}},lore=['[{"text":"Lucky Hat","italic":false}]','[{"text":" ","italic":true}]','[{"text":"MxSxC1","italic":false}]']]

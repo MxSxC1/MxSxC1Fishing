@@ -1,0 +1,4 @@
+title @p times 20 100 20
+title @p subtitle {"text":"You Have A Lucky Rod","bold":true,"color":"gold"}
+title @p title {"text":"Lucky Rod","bold":true,"color":"gold"}
+give @p fishing_rod[minecraft:attribute_modifiers=[{id:"minecraft:generic.luck",type:"generic.luck",amount:240.0,operation:"add_value",slot:"mainhand"},{id:"entity_interaction_range",type:"player.entity_interaction_range",amount:1.6,operation:"add_value",slot:"mainhand"}],custom_name='{"text":"Lucky Fishing Rod",color=gold}', item_name="luckyrod",custom_data={"powstrength3":1,"luckyrod":1},enchantments={levels: {"luck_of_the_sea":3,"lure":3,"unbreaking":10}},lore=['[{"text":"Lucky Fishing Rod","italic":false}]','[{"text":" ","italic":false}]','[{"text":" ","italic":true}]','[{"text":"MxSxC1","italic":false}]']]

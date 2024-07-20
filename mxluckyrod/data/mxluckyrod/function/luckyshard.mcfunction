@@ -1,0 +1,4 @@
+title @p times 20 100 20
+title @p subtitle {"text":"You Have A Lucky Shard","bold":true,"color":"gold"}
+title @p title {"text":"Lucky Shard","bold":true,"color":"gold"}
+give @p amethyst_shard[minecraft:attribute_modifiers=[{id:"minecraft:generic.luck",type:"generic.luck",amount:140.0,operation:"add_value",slot:"offhand"},{id:"entity_interaction_range",type:"player.entity_interaction_range",amount:1.6,operation:"add_value",slot:"offhand"}],custom_name='{"text":"L u c k y","obfuscated":true,color=gold,"bold":true}', item_name="luckyshard",custom_data={"luckyshard":1},enchantments={levels: {"lure":3,"unbreaking":10}},lore=['[{"text":"Lucky Shard","italic":false}]','[{"text":"Hold In Offhand","italic":false}]','[{"text":" ","italic":true}]','[{"text":"MxSxC1","italic":false}]']]
